@@ -3,37 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ejemplo de CSS Integrado</title>
+    <title>Introducción a CSS</title>
     <style>
-        /* Estilos para los títulos */
-        h1 {
-            color: blue;              /* Color azul para H1 */
+        body {
             font-family: Arial, sans-serif;
-            font-size: 36px;           /* Tamaño de fuente para H1 */
+            line-height: 1.6;
+            margin: 20px;
         }
-
+        h1 {
+            color: #333;
+        }
         h2 {
-            color: green;             /* Color verde para H2 */
-            font-family: 'Courier New', Courier, monospace;
-            font-size: 30px;           /* Tamaño de fuente para H2 */
-        }
-
-        h3 {
-            color: purple;            /* Color púrpura para H3 */
-            font-family: 'Georgia', serif;
-            font-size: 24px;           /* Tamaño de fuente para H3 */
-        }
-
-        /* Estilos para los párrafos */
-        p {
-            color: gray;              /* Color gris para los párrafos */
-            font-family: 'Times New Roman', Times, serif;
-            font-size: 18px;           /* Tamaño de fuente para los párrafos */
-            line-height: 1.6;          /* Espaciado entre líneas */
+            color: #555;
         }
     </style>
 </head>
 <body>
+
+    <h1>Introducción a CSS</h1>
+
+    <h2>1. ¿Qué es CSS y para qué sirve?</h2>
+    <p>
+        CSS (Cascading Style Sheets) es un lenguaje de diseño que permite separar el contenido de un sitio web de su presentación visual. 
+        Facilita la modificación de estilos en múltiples páginas a la vez, mejorando la eficiencia en el desarrollo. 
+        Además, ayuda a crear diseños responsivos y accesibles.
+    </p>
+
+    <h2>2. Formas de aplicar CSS en HTML</h2>
+
+    <h3>CSS en línea (inline)</h3>
+    <p>
+        Se aplican estilos directamente en el atributo <code>style</code> de un elemento HTML. 
+        <strong>Ejemplo:</strong> 
+        <code>&lt;p style="color: blue;"&gt;Texto en azul.&lt;/p&gt;</code>
+    </p>
+
+    <h3>CSS en el encabezado (internal)</h3>
+    <p>
+        Se utilizan etiquetas <code>&lt;style&gt;</code> en la sección <code>&lt;head&gt;</code> del HTML para aplicar estilos a toda la página. 
+        <strong>Ejemplo:</strong>
+    </p>
+    <pre><code>&lt;style&gt;
+    p { color: green; }
+&lt;/style&gt;</code></pre>
+
+    <h3>CSS externo</h3>
+    <p>
+        Se vincula un archivo CSS externo con <code>&lt;link&gt;</code> en la cabecera del HTML, ideal para múltiples páginas. 
+        <strong>Ejemplo:</strong>
+    </p>
+    <pre><code>&lt;link rel="stylesheet" href="styles.css"&gt;</code></pre>
+
+    <h2>3. Recursos de aprendizaje</h2>
+    <ol>
+        <li>
+            <strong>MDN Web Docs</strong>: Documentación completa y guías sobre CSS.
+        </li>
+        <li>
+            <strong>W3Schools</strong>: Tutoriales interactivos y ejemplos prácticos ideales para principiantes.
+        </li>
+        <li>
+            <strong>freeCodeCamp</strong>: Cursos gratuitos con ejercicios prácticos sobre desarrollo web, incluyendo CSS.
+        </li>
+    </ol>
+
+    <p>
+        Estos recursos son confiables y ofrecen un aprendizaje práctico y accesible.
+    </p>
+
+</body>
+</html>
+
 
 
 
