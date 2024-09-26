@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de CSS Margin, Padding, Border, Width y Height</title>
+    <style>
+        /* Estilos básicos del cuerpo */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            text-align: center;
+            padding-top: 50px;
+        }
+
+        /* Estilos para el marco */
+        .marco {
+            width: 300px; /* Anchura del elemento */
+            height: 300px; /* Altura del elemento */
+            padding: 20px; /* Espacio interior entre el contenido y el borde */
+            margin: 50px auto; /* Espacio exterior que rodea el elemento */
+            border: 5px solid #4CAF50; /* Borde sólido de 5px de color verde */
+            background-color: #FFEB3B; /* Color de fondo amarillo */
+        }
+
+        /* Estilos para el contenido dentro del marco */
+        .contenido {
+            background-color: #00BCD4; /* Color de fondo del contenido (azul claro) */
+            padding: 10px; /* Relleno interno dentro del contenido */
+            border: 2px solid #F44336; /* Borde del contenido (rojo) */
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Ejemplo de Margen, Padding, Borde, Ancho y Alto</h1>
+
+    <div class="marco">
+        <div class="contenido">
+            <p>Este es un ejemplo de contenido dentro de un marco.</p>
+        </div>
+    </div>
+
+    <p>
+        <strong>CSS Margin:</strong> Es el espacio entre el borde del marco y otros elementos.<br>
+        <strong>CSS Padding:</strong> Es el espacio entre el contenido y el borde del marco.<br>
+        <strong>CSS Border:</strong> Es la línea que rodea el marco.<br>
+        <strong>CSS Width and Height:</strong> Controlan el tamaño del marco.
+    </p>
+
+</body>
+</html>
