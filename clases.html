@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio con Clases e Identificadores</title>
+    <style>
+        /* Estilo para la clase titulo */
+        .titulo {
+            color: darkblue;
+            font-size: 3rem;
+        }
+
+        /* Estilo para el id destacado */
+        #destacado {
+            background-color: lightyellow;
+            color: red;
+            padding: 10px;
+        }
+
+        /* Estilo para la clase contenido */
+        .contenido {
+            color: darkgray;
+            margin: 15px 0;
+        }
+
+        /* Sobrescribir el estilo para el párrafo con clase contenido y id especial */
+        #especial.contenido {
+            background-color: lightgreen;
+            border: 2px solid green;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="titulo">Título de la Página</h1>
+
+    <p id="destacado">Este es el primer párrafo destacado.</p>
+    <p id="destacado">Este es el segundo párrafo destacado, aunque esto no debería ser correcto.</p>
+
+    <p class="contenido">Este es el primer párrafo con la clase contenido.</p>
+    <p class="contenido">Este es el segundo párrafo con la clase contenido.</p>
+    <p class="contenido">Este es el tercer párrafo con la clase contenido.</p>
+
+    <p id="especial" class="contenido">Este es el párrafo con id especial y clase contenido.</p>
+</body>
+</html>
